@@ -3,7 +3,7 @@
 This directory stores datasets.
 
 Git policy:
-- `data/raw/` — raw competition files are tracked (you asked to include only raw files in git).
+- `data/raw/` — raw competition files are tracked.
 - `data/interim/` — intermediate/prepared files are not tracked.
 - `data/processed/` — post-processed files are not tracked.
 
