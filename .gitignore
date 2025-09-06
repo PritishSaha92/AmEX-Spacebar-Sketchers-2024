@@ -1,0 +1,42 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python env
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Data directories
+# Track raw data; ignore derived data
+/data/interim/
+/data/processed/
+# Keep helpful README files
+!/data/README.md
+
+# Parquet and CSV in repo root (safety)
+/*.parquet
+/*.csv
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+**/__pycache__/
