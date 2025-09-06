@@ -39,6 +39,11 @@ Notes:
 - 3-stage ensemble: GBDT base ranker → residual modeling → Transformer with listwise ranking loss.
 - `src/scoring_v1_r3.py` provides reference scoring logic for inference.
 
+## Team
+- Pritish Saha
+- Ankit Meda
+- Upal Mazumder
+
 ## Acknowledgements
 - American Express Campus Challenge team and organizers.
 - Teammates/peers for constructive feedback.
